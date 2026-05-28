@@ -1,0 +1,47 @@
+# Build artifacts
+*.o
+*.obj
+*.a
+*.so
+*.ko
+*.lib
+*.exe
+*.out
+*.app
+build/
+bin/
+obj/
+
+# Kernel module build leftovers
+*.mod
+*.mod.c
+*.mod.o
+*.symvers
+*.order
+modules.builtin
+.tmp_versions/
+.*.cmd
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs / images / reports auto-gen
+*.log
+docs/_build/
+docs/screenshots/_raw/
+
+# Python (used for plotting)
+__pycache__/
+*.pyc
+.venv/
+
+# Disk image used by 04-filesystem
+04-filesystem/disk.img

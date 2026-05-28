@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(wmic computersystem *)",
+      "Bash(wmic cpu *)",
+      "Bash(powershell -Command 'Get-PSDrive D | Select-Object Used,Free,@{Name='\\\\''UsedGB'\\\\'';Expression={[math]::Round\\($_.Used/1GB,2\\)}},@{Name='\\\\''FreeGB'\\\\'';Expression={[math]::Round\\($_.Free/1GB,2\\)}}')"
+    ]
+  }
+}
