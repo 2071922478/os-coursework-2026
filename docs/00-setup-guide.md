@@ -175,7 +175,7 @@ type $env:USERPROFILE\.ssh\id_ed25519.pub | ssh -p 2222 osuser@127.0.0.1 "mkdir 
 在虚拟机里：
 ```bash
 cd ~
-git clone https://github.com/<你的用户名>/os-coursework-2026.git
+git clone https://github.com/2071922478/os-coursework-2026.git
 cd os-coursework-2026
 ```
 

@@ -13,6 +13,7 @@
  * 输入格式兼容 01-scheduler 的用例文件
  */
 
+#define _POSIX_C_SOURCE 200809L
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>

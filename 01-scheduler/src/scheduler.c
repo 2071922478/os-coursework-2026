@@ -6,6 +6,7 @@
  * 输出   : ASCII 甘特图 + 每进程统计 + 平均等待/周转
  */
 
+#define _POSIX_C_SOURCE 200809L
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
