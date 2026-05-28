@@ -1,0 +1,12 @@
+# 动态分区测试用例 1 — 经典请求序列
+# 指令: alloc <name> <size> | free <name> | compact | show
+alloc A 200
+alloc B 150
+alloc C 300
+free B
+alloc D 100
+alloc E 250
+free A
+free C
+alloc F 350
+show

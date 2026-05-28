@@ -3,7 +3,13 @@
     "allow": [
       "Bash(wmic computersystem *)",
       "Bash(wmic cpu *)",
-      "Bash(powershell -Command 'Get-PSDrive D | Select-Object Used,Free,@{Name='\\\\''UsedGB'\\\\'';Expression={[math]::Round\\($_.Used/1GB,2\\)}},@{Name='\\\\''FreeGB'\\\\'';Expression={[math]::Round\\($_.Free/1GB,2\\)}}')"
+      "Bash(powershell -Command 'Get-PSDrive D | Select-Object Used,Free,@{Name='\\\\''UsedGB'\\\\'';Expression={[math]::Round\\($_.Used/1GB,2\\)}},@{Name='\\\\''FreeGB'\\\\'';Expression={[math]::Round\\($_.Free/1GB,2\\)}}')",
+      "Bash(python3 -c \"import subprocess; subprocess.run\\(['pip', 'install', 'PyPDF2'], capture_output=True\\); from PyPDF2 import PdfReader; r = PdfReader\\('D:/work/04/操作系统课程设计内容与要求1.pdf'\\); [print\\(p.extract_text\\(\\)\\) for p in r.pages]\")",
+      "Bash(pdftotext \"D:/work/04/操作系统课程设计内容与要求1.pdf\" -)",
+      "Bash(pip install *)",
+      "Bash(python3 -c ' *)",
+      "Bash(python3 *)",
+      "Bash(python _extract_docx.py)"
     ]
   }
 }
