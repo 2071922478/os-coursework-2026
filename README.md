@@ -46,10 +46,6 @@ cd ext1-kernel && make && sudo ./load.sh
 cd ext2-sched-perf && make && ./mlfq_cfs -f cases/mlfq_case.txt -a all
 ```
 
-## 文档
-- 安装手册：[docs/00-setup-guide.md](docs/00-setup-guide.md)
-- **运行指南与截图清单**：[docs/RUN-GUIDE.md](docs/RUN-GUIDE.md)
-- **实验报告**：[docs/REPORT.md](docs/REPORT.md)
 
 ## 代码托管
-> 提交报告时在此处补充 GitHub 仓库 URL：`https://github.com/<user>/os-coursework-2026`
+> GitHub 仓库 URL：`https://github.com/2071922478/os-coursework-2026`
