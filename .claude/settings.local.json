@@ -11,7 +11,12 @@
       "Bash(python3 *)",
       "Bash(python _extract_docx.py)",
       "Bash(ping -n 2 github.com)",
-      "Bash(curl -I --connect-timeout 5 https://github.com)"
+      "Bash(curl -I --connect-timeout 5 https://github.com)",
+      "Bash(cp README.md _github_release/)",
+      "Bash(mkdir -p _github_release/01-scheduler/src _github_release/01-scheduler/cases)",
+      "Bash(cp 01-scheduler/Makefile 01-scheduler/README.md _github_release/01-scheduler/)",
+      "Bash(cp 01-scheduler/src/scheduler.c _github_release/01-scheduler/src/)",
+      "Bash(cp 01-scheduler/cases/case1.txt 01-scheduler/cases/case2.txt _github_release/01-scheduler/cases/)"
     ]
   }
 }
